@@ -1,0 +1,24 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Titanic",
+      "actors": "david, osman, Samira"
+    },
+    {
+      "id": 2,
+      "title": "Saw",
+      "actors": "Zaki"
+    },
+    {
+      "id": 3,
+      "title": "Star wars",
+      "actors": "Samira"
+    },
+    {
+      "title": "Titanic II",
+      "actors": "Sait, Someone",
+      "id": 4
+    }
+  ]
+}

@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:http": "nodemon ./http-server.js",
-    "start": "nodemon ./server.js"
+    "start:express": "nodemon ./custom-express-server.js",
+    "start:json-server": "json-server --watch ./db.json",
+    "start": "nodemon ./custom-express-server-postgress.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +19,7 @@
     "express": "^4.17.1",
     "morgan": "^1.9.1",
     "nodemon": "^2.0.2",
+    "pg": "^7.17.1",
     "uuid": "^3.3.3"
   }
 }
